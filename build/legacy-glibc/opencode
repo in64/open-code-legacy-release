@@ -1,0 +1,3 @@
+#!/bin/sh
+export LD_LIBRARY_PATH=/opencode/lib:$LD_LIBRARY_PATH
+exec /opencode/bin/opencode.bin "$@"
